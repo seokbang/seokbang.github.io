@@ -424,6 +424,9 @@ header {
     }
   }
   @media screen and (max-width: 770px) {
+    #mainname span {
+      font-size: 15vw;
+    }
     header {
       display: none;
     }
@@ -509,8 +512,7 @@ header {
       height: 40vw;
     }
     .modal-content p {
-      font-size: 1.5vw;
-  
+      font-size: 3vw;
     }
     .firstp, .secondp {
       display: flex;
